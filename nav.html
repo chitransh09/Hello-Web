@@ -1,0 +1,64 @@
+<html>
+<title>Login</title>
+
+<head>
+	<link  rel="stylesheet",
+	  type="text/css",
+	  href="nav.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="jquery-3.5.0.js"></script>
+
+
+	</head>
+
+	<body>
+
+  
+
+
+
+
+     <div  style="background-color:transparent; padding: 50px;border:1px ">
+     	
+     </div> 
+     
+<div class="container">
+  <img src="logo1.png" alt="Avatar" class="image" >
+  <div class="overlay">
+    <div class="text">HOME</div>
+  </div>
+</div>
+<div class="center">
+<button class="button" id="form">Login</button>
+<button class="button"  onclick="window.location.href='signup.html';" id="formm">SignUp</button>
+
+<form id="form1">
+  <b class="boo">Username</b><br>
+  <input type="text" name="Username" class="boo">
+  <br>
+  <b class="boo">Password</b>
+  <br>
+  <input type="text" name="Password" class="boo1"><br><br>
+  <button type="button" id="submit">Submit</button>
+  <button type = "button" id="back">Go Back</button>
+
+</form>
+
+
+
+</div>
+<script>
+$("#form").click(function(){
+  $("#form1").toggle(1000)
+  $("#form").hide()
+  $("#formm").hide()
+});
+$("#back").click(function(){
+  $("#form").toggle(1000)
+  $("#form1").hide()
+  $("#formm").toggle(1000)
+});
+</script>
+ </body>
+ </html>
+
