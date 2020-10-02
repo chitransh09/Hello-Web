@@ -1,9 +1,24 @@
 
-/*body{*/
-	 /*background-image: url("back.png");*/
-   /*font-family: Josefin Sans;*/
+body{
+	 background-image: url("back.png");
+   font-family: Josefin Sans;
+}
   
 
+
+#vantaBirds{
+  position: absolute;
+  display: inline-block;
+  min-width: 100%;
+  min-height: 100vh;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  z-index: -1;
+  background-color: #000;
+
+}
 
 
 	
@@ -30,11 +45,11 @@
   position: absolute;
   bottom: 20;
 
-  opacity:0.1;
+  opacity:0.5;
   left: 15;
   right: 76;
 
-  background-color:yellow;
+  background-color:skyblue;
   overflow:hidden;
   width: 262px;
   height: 10%;
@@ -68,7 +83,7 @@ opacity: 1;
 
 
 .button {
-  background-color: yellow;
+  background-color: skyblue;
   border: groove;
   color: black;
   padding: 10px 70px;
