@@ -78,6 +78,8 @@ opacity: 1;
 }
 .text:hover{
 	opacity: 1;
+	color: #A8D5E5;
+	text-decoration: underline;
 }
 
 
